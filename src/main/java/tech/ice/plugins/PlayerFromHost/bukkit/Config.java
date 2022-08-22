@@ -36,7 +36,6 @@ public class Config {
 
         Configuration config = YamlConfiguration.loadConfiguration(file);
 
-        StringBuilder HostNameList = new StringBuilder();
         HostName = config.getStringList("hostname");
         Message = config.getString("messages.disconnect");
         LoginFailed = config.getString("messages.console.failed");
