@@ -1,3 +1,4 @@
+config-version: 1.0
 ##玩家加入判定結果是否使用後台記錄
 console-logger: true
 
