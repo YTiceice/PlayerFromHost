@@ -1,0 +1,8 @@
+name: PlayerFromHost
+main: tech.ice.plugins.PlayerFromHost.bungee.Main
+version: 1.0
+author: ice
+commands:
+  pfhreload:
+    description: 重新讀取所有配置檔案
+    usage: /pfhreload

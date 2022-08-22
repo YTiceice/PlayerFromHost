@@ -1,0 +1,21 @@
+##玩家加入判定結果是否使用後台記錄
+console-logger: true
+
+##若玩家加入使用SRV記錄, 請填入 "目標:連接埠"
+hostname:
+  - "your.server.ip"
+  - "your.server.ip2"
+
+messages:
+##多個 hostname 之間的顯示分隔符
+  host-append: ", "
+##玩家加入時判定不符設定斷線訊息
+  disconnect: "§c請使用 %2s 來加入此伺服器\n§b（你目前使用的IP為 %3s）"
+##玩家加入判定結果後台記錄訊息 (只在 console-logger 為 true 時生效)
+  console:
+    failed: "%2s 嘗試使用 %3s 加入伺服器, 但因為使用的IP與配置中的 %4s 不同所以不允許連線"
+    success: "%2s 嘗試使用 %3s 加入伺服器"
+##使用指令的結果輸出訊息
+  command:
+    no-per: "§c你沒有權限使用這個指令"
+    reload: "§b已重新讀取所有配置檔案"
