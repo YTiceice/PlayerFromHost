@@ -17,3 +17,15 @@ mvn install
 ## 核心
 
 **支持 [Bukkit/BungeeCord]**
+
+## 指令
+
+```
+/pfhreload - 重新讀取所有配置檔案
+```
+
+## 權限
+
+```
+pfh.reload - 執行pfhreload的權限
+```
