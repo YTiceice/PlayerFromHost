@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.ice.plugin</groupId>
-    <artifactId>PlayerFromHost</artifactId>
+    <artifactId>playerfromhost</artifactId>
     <version>1.0</version>
 
     <properties>
