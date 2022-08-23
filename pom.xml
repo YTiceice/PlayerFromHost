@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.ice.plugin</groupId>
-    <artifactId>playerfromhost</artifactId>
+    <artifactId>PlayerFromHost</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -100,13 +100,5 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-      <repository>
-        <id>github</id>
-        <name>GitHub Packages</name>
-        <url>https://github.com/YTiceice/PlayerLogger</url>
-      </repository>
-    </distributionManagement>
          
 </project>
