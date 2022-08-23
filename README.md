@@ -16,7 +16,7 @@ mvn install
 
 ## 核心
 
-**支持 [Bukkit/BungeeCord]**
+**支持 [Bukkit/Spigot/BungeeCord]**
 
 ## 指令
 
